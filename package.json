@@ -1,0 +1,28 @@
+{
+  "name": "download-canvas",
+  "version": "1.0.0",
+  "description": "Download Canvas",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huytbt/download-canvas.git"
+  },
+  "keywords": [
+    "download",
+    "canvas",
+    "image",
+    "save",
+    "png",
+    "jpg",
+    "jpeg"
+  ],
+  "author": "Huy T.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huytbt/download-canvas/issues"
+  },
+  "homepage": "https://github.com/huytbt/download-canvas#readme"
+}
