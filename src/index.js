@@ -255,7 +255,7 @@ var saveAs = saveAs || (function(view) {
 ));
 
 
-var downloadAs = downloadAs || (function() {
+var downloadCanvas = downloadCanvas || (function() {
 
   function b64toBlob(b64Data, contentType, sliceSize) {
     contentType = contentType || '';
