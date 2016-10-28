@@ -339,9 +339,9 @@ var downloadCanvas = downloadCanvas || (function() {
 
 
 if (typeof module !== "undefined" && module.exports) {
-  module.exports = {downloadCanvas};
+  module.exports = {downloadCanvas: downloadCanvas};
 } else if ((typeof define !== "undefined" && define !== null) && (define.amd !== null)) {
   define([], function() {
-    return {downloadCanvas};
+    return {downloadCanvas: downloadCanvas};
   });
 }
